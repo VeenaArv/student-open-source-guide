@@ -19,3 +19,7 @@ I'll look into it later but for now, I want to see how the community communicati
 
 ### Jira 
 issue tracking is done via [Jira](https://jira.xwiki.org/secure/Dashboard.jspa)
+
+## Code vs Non Code Contributions 
+
+One of the first things I learned is that despite your technical proficiency, making non-code contributions is the best way to learn and explore an open source project. I had intially tried to start on a code issue for XWiki called "Trim Server Name Aliases" It seemed like a good easy first contribution. The difficult level was trivial and the label was onboarding. Perfect! I am onboaring. So I sent a message through Jira, the project's issue tracker, and the maintainer responded with "Please do pick it up!" So, I opened the code and was greeted by XML. Shoot. I don't know XML. It's okay, I reassured myself. I've dealt with having to write code for programming languages I haven't experienced before. So, I tried to understand the file only to realize I have no idea how web development files are stored. I have no idea where to start. Lesson #1: Pick a language/framework you are familiar with. Lesson #2: Don't code, document instead. 
