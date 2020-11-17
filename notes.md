@@ -2,12 +2,13 @@
 
 ## [Strongbox](https://github.com/strongbox/strongbox/) 
 
-Strongbox had a hardware requirement of SSD, 16 GB RAM and i7 processor or the equivalent. The maintainers said that with a worse machine, build times will be very long which will
-kill beginner enthusiam. I joined chat to ask maintainers questions, mistakingly glossed over specific Maven version requirement and was politely told to pay better attention to
-the doc. I had thought version were minimum requirements, but some projects only support a specific version adn have not upgraded to support newer versions.
+Strongbox had a hardware requirement of SSD, 16 GB RAM and i7 processor or the equivalent. The maintainers said that with a worse machine, build times will be very long which will kill beginner enthusiam. I joined chat to ask maintainers questions, mistakingly glossed over specific Maven version requirement and was politely told to pay better attention to the doc. I had thought version were minimum requirements, but some projects only support a specific version adn have not upgraded to support newer versions.
 
 All in all, strongbox was a fail since my laptop did not meet thier hardware requirements and I need to find a different project
 
+TODO: include screenshot of conversation where the maintainer says that I cannot contribute to strongbox with my recs.
+
+TODO: talk about asking question prematurely and the maintainer asks if I had read the docs. 
 
 ## XWiki 
 
@@ -16,6 +17,9 @@ XWiki has a quickstart VM for making one-time contributions. It has extensive do
 ### Chats
 I'm having trouble understanding the method of comunications. XWiki uses Riot as a bridge to IRC but apparenlty it's read only and I need to register my username to get access? 
 I'll look into it later but for now, I want to see how the community communications and delegates tasks. I subscribed to the development mailing list.
+
+### Contributions 
+TODO: put contributions here 
 
 ### Jira 
 issue tracking is done via [Jira](https://jira.xwiki.org/secure/Dashboard.jspa)
@@ -35,9 +39,12 @@ How to pick the best resources for learning?
 3. Know if you are in over your head. If you find yourself googling every other word or in a field that you have never worked in or studied, it might be a good idea to revaluate your open source project. It is a lot easier and more fulfiling to work on a project that uses concepts you already know. For example, if you have never heard of a data pipeline or have any idea how to build one, Airflow might not be the project for you.   
 4. Don't sweat the details. The goal of learning about the open source project is to provide yourself with a baseline of knowledge to become productive quickly. When you start working on issues, you can learn the concepts needed for that issue more in depth without wasting your time learning everything. 
 
-
 Here is a list of resources I used to learn Airflow:
+* https://www.youtube.com/watch?v=YWtfU0MQZ_4
+* TODO: include into to concepts page from the official airflow documentation
 
+### Mentorship program 
+TODO: include info about mentorship program
 
 ### Windows Trouble 
 A lot of open source projects do not contain information on developing in a windows environment. Build tools can heavily rely on bash scripts and other Unix/Linuz features. Oftentimes, documentation will point out what do to differently for Mac, but disregard windows. In the case of Airflow, its build tool breeze relies on Docker. Breeze requires Docker running on [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/about) (Windows Subsystems for Linux), which allows windows user to directly run on a Linux within Windows.
