@@ -27,10 +27,13 @@ One of the first things I learned is that despite your technical proficiency, ma
 ## [Airflow](https://github.com/apache/airflow)
 
 ### Learning Airflow
-While I have never used airflow before this, I have used Airflow's competitor, Luigi (also an open source project). Before starting to contribute to open source, it is best to have a good understanding of the project oyu work on, at least at a high level. I used to take the approach where I tried to dive into contributing (not just in open soucre) and try to figure stuff out along the way. I've recently learned that it is much better to learn the project and the organization of the codebase before making any contributions, even documentation related ones. Depending on your learning style, you can learn about the project through [videos](), [documentation](), or [blogs](). Personally, I perfer a mixture of blogs and documentation because I prefer to read at my own pace. 
+While I have never used airflow before this, I have used Airflow's competitor, Luigi (also an open source project). Before starting to contribute to open source, it is best to have a good understanding of the project oyu work on, at least at a high level. I used to take the approach where I tried to dive into contributing (not just in open soucre) and try to figure stuff out along the way. I've recently learned that it is much better to learn the project and the organization of the codebase before making any contributions, even documentation related ones.
 
-How to pick good the best resources for learning? 
+How to pick the best resources for learning? 
 1. Know their audience. For example, an Airflow tutorial geared towards data scientists will assume little coding knowledge with one geared towards data engineers will assume that you already know all the jargon in data engineering. 
+2. Know your learning style.  Depending on your learning style, you can learn about the project through [videos](https://www.youtube.com/watch?v=YWtfU0MQZ_4), [documentation](https://airflow.readthedocs.io/en/latest/tutorial.html), or [blogs](https://towardsdatascience.com/data-pipelines-luigi-airflow-everything-you-need-to-know-18dc741449b7). Oftentimes, its best to have a combination of all three. 
+3. Know if you are in over your head. If you find yourself googling every other word or in a field that you have never worked in or studied, it might be a good idea to revaluate your open source project. It is a lot easier and more fulfiling to work on a project that uses concepts you already know. For example, if you have never heard of a data pipeline or have any idea how to build one, Airflow might not be the project for you.   
+4. Don't sweat the details. The goal of learning about the open source project is to provide yourself with a baseline of knowledge to become productive quickly. When you start working on issues, you can learn the concepts needed for that issue more in depth without wasting your time learning everything. 
 
 
 Here is a list of resources I used to learn Airflow:
@@ -49,7 +52,11 @@ How to fix:
 After fixing this, docker still did not work; however, after restarting my machine, the docker container was started up. To verify this, open docker desktop and see that the container is running. 
 
 ### Contributions 
-Airflow uses github issues to track thier issues. Apache as a whole uses Jira as an issue tracker, but in the Airflow documentation, they justed to look at open issues on github. I'm not sure if t
+Airflow uses github issues to track thier issues. Apache as a whole uses Jira as an issue tracker, but in the Airflow documentation, they suggested to look at open issues on github. While an organization as a whole might have certain standard practices, each project may have it's own practices as well. 
 
 Searched issues on [github](https://github.com/apache/airflow/labels/good%20first%20issue) with label `good first issue`
 
+### [Documenting TaskGroup vs SubDag](https://github.com/apache/airflow/issues/12298)
+Commented on Issue to ask to pick it up. Asked a clarifying question on where the documentation should go. 
+Lessons: 
+* Look at design docs/ issues for the feature that is being documented. A feature is only created if there is a use case for it and the original design doc is the best place to learn the use case. [Design doc for TaskGroup](https://cwiki.apache.org/confluence/display/AIRFLOW/AIP-34+TaskGroup%3A+A+UI+task+grouping+concept+as+an+alternative+to+SubDagOperator)
