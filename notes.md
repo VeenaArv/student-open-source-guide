@@ -58,6 +58,10 @@ How to fix:
 
 After fixing this, docker still did not work; however, after restarting my machine, the docker container was started up. To verify this, open docker desktop and see that the container is running. 
 
+* WSL 2 hogging RAM
+Fix: https://blog.simonpeterdebbarma.com/2020-04-memory-and-wsl/
+TODO: expand on fix
+
 ### Contributions 
 Airflow uses github issues to track thier issues. Apache as a whole uses Jira as an issue tracker, but in the Airflow documentation, they suggested to look at open issues on github. While an organization as a whole might have certain standard practices, each project may have it's own practices as well. 
 
