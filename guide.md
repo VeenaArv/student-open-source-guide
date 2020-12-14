@@ -54,30 +54,34 @@ and will have an easier time onboarding as a contributer to the project. In fact
  ### Once you find a project
 
 1. Join the relevant mailing lists/chats/issue trackers.
-Contributing to open source requires a lot of communication and you can always reach out to other contributors if you feel you need help. I had done this for Strongbox when my build was not working. Turns out I mistakingly glossed over specific Maven version requirement and was politely told to pay better attention to the doc. 
+
+    Contributing to open source requires a lot of communication and you can always reach out to other contributors if you feel you need help. I had done this for Strongbox when my build was not working. Turns out I mistakingly glossed over specific Maven version requirement and was politely told to pay better attention to the doc. 
 
 1. If you have not used the product before, learn it. 
 
-I had chosen to contribute to Airflow becuase I experience with Airflow's competitor, Luigi (also an open source project) and felt that those skills would be transferable. 
+    I had chosen to contribute to Airflow becuase I experience with Airflow's competitor, Luigi (also an open source project) and felt that those skills would be transferable. 
 
-Before starting to contribute to open source, it is best to have a good understanding of the project you work on, at least at a high level. I used to take the approach where I tried to dive into contributing (not just in open source) and try to figure stuff out along the way. I've recently learned that it is much better to learn the project and the organization of the codebase before making any contributions, even documentation related ones.
+    Before starting to contribute to open source, it is best to have a good understanding of the project you work on, at least at a high level. I used to take the approach where I tried to dive into contributing (not just in open source) and try to figure stuff out along the way. I've recently learned that it is much better to learn the project and the organization of the codebase before making any contributions, even documentation related ones.
 
-How to pick the best resources for learning? 
-    1. **Know their audience.** For example, an Airflow tutorial geared towards data scientists will assume little coding knowledge with one geared towards data engineers will assume that you already know all the jargon in data engineering. 
-    2. **Know your learning style.**  Depending on your learning style, you can learn about the project through [videos](https://www.youtube.com/watch?v=YWtfU0MQZ_4), [documentation](https://airflow.readthedocs.io/en/latest/tutorial.html), or [blogs](https://towardsdatascience.com/data-pipelines-luigi-airflow-everything-you-need-to-know-18dc741449b7). Oftentimes, its best to have a combination of all three. 
-    3. **Know if you are in over your head.** If you find yourself googling every other word or in a field that you have never worked in or studied, it might be a good idea to revaluate your open source project. It is a lot easier and more fulfiling to work on a project that uses concepts you already know. For example, if you have never heard of a data pipeline or have any idea how to build one, Airflow might not be the project for you.   
-    4. **Don't sweat the details.** The goal of learning about the open source project is to provide yourself with a baseline of knowledge to become productive quickly. When you start working on issues, you can learn the concepts needed for that issue more in depth without wasting your time learning everything. 
+    How to pick the best resources for learning?
+
+      1. **Know their audience.** For example, an Airflow tutorial geared towards data scientists will assume little coding knowledge with one geared towards data engineers will assume that you already know all the jargon in data engineering. 
+      2. **Know your learning style.**  Depending on your learning style, you can learn about the project through [videos](https://www.youtube.com/watch?v=YWtfU0MQZ_4), [documentation](https://airflow.readthedocs.io/en/latest/tutorial.html), or [blogs](https://towardsdatascience.com/data-pipelines-luigi-airflow-everything-you-need-to-know-18dc741449b7). Oftentimes, its best to have a combination of all three. 
+      3. **Know if you are in over your head.** If you find yourself googling every other word or in a field that you have never worked in or studied, it might be a good idea to revaluate your open source project. It is a lot easier and more fulfiling to work on a project that uses concepts you already know. For example, if you have never heard of a data pipeline or have any idea how to build one, Airflow might not be the project for you.   
+      4. **Don't sweat the details.** The goal of learning about the open source project is to provide yourself with a baseline of knowledge to become productive quickly. When you start working on issues, you can learn the concepts needed for that issue more in depth without wasting your time learning everything. 
 
 1. Read Onboarding Docs/ Set up your build environment.
      
-     a. Avoid Windows if you can. Seriously.   
+   **Avoid Windows if you can. Seriously.**  
        
    [Here](https://opensource.com/article/18/5/dual-boot-linux) is an article on how to dual boot Linux on a PC. If you have a really cheap PC with horrible specs like me, there’s not much you can do: you will have to suffer through Windows. Here are a few rules for developing on a windows laptop. 
             1)	Install WSL2 with Ubuntu. This allows you to run linux commands on your windows laptop. 
             2)	Accept that you will have worse performance. 
     The reason for this is that most onboarding guides are made for a Unix/Linux system. They may provide commands meant to run in a Unix/Linux system and you will need to figure out on your own how to set up windows. On the bright side, you can make a contribution of a onboarding guide for windows. 
 
-    **Mentoring programs**: Some open source projects such as Apache projects have mentoring programing to help you better integrate yourself into the project and the community. 
+    **Mentoring programs**:
+    
+    Some open source projects such as Apache projects have mentoring programing to help you better integrate yourself into the project and the community. 
     [Apache Mentoring program](https://community.apache.org/mentoringprogramme.html): As a mentee you must devolop a plan and show that you are making a serious time commitment and effort towards the project. Anyone can be a mentee and you will find a mentor by submitting your proposal to the apache mailing lists. Here is a link to the program [application](https://community.apache.org/mentorprogrammeapplication.html). The only caveat is that mentors will not teach technical skills required to complete the project and they expect mentees to have the techincal skills beforehand. 
 
 
