@@ -83,17 +83,18 @@ How to pick the best resources for learning?
 
 1. Make Non Code Contributions first
 
-One of the first things I learned is that despite your technical proficiency, making non-code contributions specifically documentation  is the best way to learn and explore an open source project. Here is an issue that I picked up for Airflow and how I went about documenting it.
+    One of the first things I learned is that despite your technical proficiency, making non-code contributions specifically documentation  is the best way to learn and explore an open source project. Here is an issue that I picked up for Airflow and how I went about documenting it.
 
-### [Documenting TaskGroup vs SubDag](https://github.com/apache/airflow/issues/12298)
-I commented on Issue to ask to pick it up and asked a clarifying question on where the documentation should go. 
+    [Documenting TaskGroup vs SubDag](https://github.com/apache/airflow/issues/12298)
+    I commented on Issue to ask to pick it up and asked a clarifying question on where the documentation should go. 
 
-I looked at design docs/ issues for the feature that is being documented. A feature is only created if there is a use case for it and the original design doc is the best place to learn the use case. [Design doc for TaskGroup](https://cwiki.apache.org/confluence/display/AIRFLOW/AIP-34+TaskGroup%3A+A+UI+task+grouping+concept+as+an+alternative+to+SubDagOperator). 
+    I looked at design docs/ issues for the feature that is being documented. A feature is only created if there is a use case for it and the original design doc is the best place to learn the use case. [Design doc for TaskGroup](https://cwiki.apache.org/confluence/display/AIRFLOW/AIP-34+TaskGroup%3A+A+UI+task+grouping+concept+as+an+alternative+to+SubDagOperator). 
 
-Here is my [PR](https://github.com/apache/airflow/pull/12741) in progress.
+    Here is my [PR](https://github.com/apache/airflow/pull/12741) in progress.
 
-Sometimes you choose to document a issue only to find out that the issue has already been fixed. Here is an example of one I found for [XWiki](https://jira.xwiki.org/browse/XINFRA-32) If that is the case, alert the maintainer and provide the link of the exact location where the issue was solved. That is also considered an open source contribution! 
+    Sometimes you choose to document a issue only to find out that the issue has already been fixed. Here is an example of one I found for [XWiki](https://jira.xwiki.org/browse/XINFRA-32) If that is the case, alert the maintainer and provide the link of the exact location where the issue was solved. That is also considered an open source contribution! 
 
 1. Make Code Contributions 
-Finally, you're here! At this point, you have the experience to confidently work on code contributions. You might make some misteps like having a failing build that you don't know how to fix, but with some good communication with the ope source comminity, you should be in tip top shape. 
+
+    Finally, you're here! At this point, you have the experience to confidently work on code contributions. You might make some misteps like having a failing build that you don't know how to fix, but with some good communication with the ope source comminity, you should be in tip top shape. 
 
