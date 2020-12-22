@@ -1,20 +1,19 @@
 # Open Source Student Guide 
 
-Welcome! This is a guide geared towards university students with little industry experience but want to contributed to open source. I will be drawing from my experience in contributing to o
-pen source without have any prior experience.  
+Welcome! This is a guide geared towards university students with little industry experience but want to contributed to open source. I will be drawing from my experience in contributing to open source without have any prior experience.  
 
 ## Help! I don't how know to code.
 
 There are two main ways to make non-code contributions to open source.
-    1) Improve Documentation
-    2) Report Issues
+  1) Improve Documentation
+  2) Report Issues
 
-However, to make these contributions, you must be an active user of the project. So, if you don't know how to code and considered contributing to open source as a way to learn, 
+However, to make these contributions, you must be an active user of the project. So, if you don't know how to code and want to contribute to open source as a way to learn, 
 I suggest doing this instead:
-    1) Choose a open source product you want to use.
-    2) Come up with a project that incorperates that open source project 
-    3) Learn the neccesary programming laguages and technologies to complete the project.
-    4) Make open source contributions based on the struggles you encounter using the tools.
+  1) Choose a open source product you want to use.
+  2) Come up with a project that incorperates that open source project 
+  3) Learn the neccesary programming laguages and technologies to complete the project.
+  4) Make open source contributions based on the struggles you encounter using the tools.
 
 Even if you know how to code, there's still a lot of benefits in going this route. By being a user of the product, you have more context on what improvements the project needs 
 and will have an easier time onboarding as a contributer to the project. In fact, most people contribute to per source projects that they use in their day-to-day 
